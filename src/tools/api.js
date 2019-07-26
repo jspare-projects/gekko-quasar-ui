@@ -5,8 +5,8 @@ const config = window.CONFIG;
 let basePath, restPath, wsPath;
 
 basePath = config.baseUrl;
-wsPath = config.websocket + '/api/';
-restPath = basePath + '/api/';
+wsPath = config.websocket + 'api/';
+restPath = basePath + 'api/';
 
 export {
   wsPath,
